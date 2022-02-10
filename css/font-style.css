@@ -1,0 +1,54 @@
+p {
+  font-family: "Times New Roman";
+  font-size: 17px;
+}
+
+.car-name {
+  font-family: "Times New Roman";
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text-small-info {
+  font-size: 15px;
+}
+
+.text-index-big {
+  font-family: "Times New Roman";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.text-offer-red {
+  font-family: "Times New Roman";
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.text-offer-price-red {
+  font-family: "Times New Roman";
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-decoration: line-through;
+}
+
+.text-offer-price-green {
+  font-family: "Times New Roman";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}

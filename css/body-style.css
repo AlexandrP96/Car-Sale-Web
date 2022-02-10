@@ -1,0 +1,397 @@
+.body-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+/* элементы index */
+
+.index-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.index-banners {
+  grid-column: auto;
+  grid-row: 1;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  height: 500px;
+}
+
+.index-banners img {
+  border-radius: 10px;
+}
+
+.index-price-of-day {
+  grid-column: auto;
+  grid-row: 2;
+  display: grid;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.index-offers {
+  grid-column: auto;
+  grid-row: 3;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  height: auto;
+  text-align: center;
+}
+
+.index-offers-wrapper {
+  display: grid;
+}
+
+.index-offers-1 {
+  grid-column: 1;
+  grid-row: 2;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.index-offers-2 {
+  grid-column: 2;
+  grid-row: 2;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.index-recom {
+  grid-column: auto;
+  grid-row: 4;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  height: 300px;
+  text-align: center;
+}
+
+.index-catalog {
+  grid-column: auto;
+  grid-row: 5;
+  display: grid;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.index-catalog-phrase {
+
+}
+
+.index-car-prev-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+.car-prev-style {
+  text-align: center;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.car-prev-style img {
+  border: 2px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: #32BFDE;
+  height: 150px;
+  width: 240px;
+}
+
+.car-prev-style:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: #71EE4A;
+}
+
+.car-prev-style-offer {
+  text-align: center;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #1C7AAF;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.car-prev-style-offer img {
+  border: 3px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: #1C7AAF;
+  height: 150px;
+  width: 240px;
+}
+
+.car-prev-style-offer:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  background-color: #97DAFF;
+}
+
+.index-button-up {
+  grid-row: 6;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #8FE4F8;
+  text-align: center;
+  border-style: inset;
+  justify-content: center;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+}
+
+.index-generic-button {
+  margin: 5px;
+  padding: 5px;
+  background-color: #8FE4F8;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+}
+
+/* элементы about */
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.about-main-info {
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  grid-row: 1;
+  text-align: center;
+  padding: 1em;
+}
+
+.about-other-info {
+  display: flex;
+}
+
+.about-map {
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  margin-right: 20px;
+}
+
+.about-info {
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.about-working-hours {
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.about-contact-form {
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  text-align: center;
+}
+
+.about-contact-form textarea {
+  border: 5px;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: #32BFDE;
+  background-color: white;
+}
+
+/* элементы services */
+
+.services-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.services-insurance {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+}
+
+.services-insurance img {
+  width: 140px;
+  height: 140px;
+  margin-left: 35px;
+}
+
+
+.services-insurance-form {
+  grid-column: 2;
+  grid-row: 1;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  text-align: center;
+}
+
+.services-tehinspection {
+  grid-column: 1;
+  grid-row: 2;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+}
+
+.services-tehinspection-form {
+  grid-column: 2;
+  grid-row: 2;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  text-align: center;
+}
+
+.services-carsearch {
+  grid-column: 1;
+  grid-row: 3;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+}
+
+.services-carsearch-form {
+  grid-column: 2;
+  grid-row: 3;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  background-color: #8FE4F8;
+  padding: 1em;
+}
+
+.services-text-center {
+  text-align: center;
+}
+
+/* элементы cite-map */
+
+/* элементы addons */
+.addons-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+}
+
+.addons-caption {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addons-block {
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  background-color: #8FE4F8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.addons-goods-preview {
+  background-color: #8FE4F8;
+  justify-content: center;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.addons-goods-preview img {
+  height: 150px;
+  width: 130px;
+}
+
+.addons-hidden-content {
+  display: none;
+  position: relative;
+}
+
+.addons-goods-preview:hover .addons-hidden-content {
+  display: block;
+  position: absolute;
+  padding: 5.4em;
+  background-color: #8FE4F8;
+  border-style: inset;
+  border-top: none;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+}
+
+/* элементы oppps */
+
+#input-field {
+  border: 3px;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: #32BFDE;
+  background-color: white;
+}

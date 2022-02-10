@@ -1,0 +1,143 @@
+.catalog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  grid-template-areas: "search links links . ."
+                       "filter catalog catalog catalog catalog"
+                       ". . pages pages .";
+}
+
+.catalog-links-tree-style {
+  grid-area: links;
+  border-radius: 20px;
+  background-color: #8FE4F8;
+  padding-left: 15px;
+  max-height: 50px;
+  max-width: 300px;
+  text-align: center;
+  grid-row: 1;
+}
+
+.catalog-search-style {
+  grid-area: search;
+  border-radius: 20px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  grid-row: 1;
+}
+
+.catalog-filter-style {
+  grid-area: filter;
+  background-color: #8FE4F8;
+  padding: 1em;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 750px;
+  border: 5px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: #32BFDE;
+  display: grid;
+  grid-template-columns: 1;
+}
+
+.filter-caption {
+  text-align: center;
+}
+
+.filter-button-open {
+  background-color: #8FE4F8;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.filter-button-open:hover {
+  background-color: #71EE4A;
+}
+
+.filter-hidden-content {
+  display: none;
+  position: relative;
+}
+
+/* Код взят с сайта: */
+/* https://prokipr.ru/SITES/html-vypadajushhee-menju-css-bez-javascript.html */
+
+.filter-button-open:focus ~ .filter-hidden-content,
+.filter-hidden-content:hover {
+  text-align: center;
+  display: block;
+  background-color: #8FE4F8;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.catalog-cars-page-style {
+  grid-area: catalog;
+  border-radius: 20px;
+  background-color: #8FE4F8;
+  padding: 1em;
+  margin-right: 15px;
+  text-align: center;
+  grid-row: 2;
+}
+
+.cars-row-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  grid-template-rows: 1;
+  grid-gap: 15px;
+  padding-bottom: 15px;
+}
+
+.car-prev-style {
+  background-color: #8FE4F8;
+  justify-content: center;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #32BFDE;
+  border-radius: 10px;
+  padding-top: 10px;
+  grid-row: 1;
+}
+
+.car-prev-style img {
+  border: 2px;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: #32BFDE;
+  height: 150px;
+  width: 240px;
+}
+
+.car-prev-style:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: #71EE4A;
+}
+
+.catalog-pages-style {
+  grid-area: pages;
+  border-radius: 20px;
+  background-color: #8FE4F8;
+  text-align: center;
+  max-height: 50px;
+  grid-row: 3;
+}
+
+.button-up {
+  position: fixed;
+  top: 0;
+}

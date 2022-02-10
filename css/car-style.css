@@ -1,0 +1,63 @@
+.body-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.car-body-wrapper {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.car-name {
+  grid-row: 1;
+  padding: 1em;
+  background-color: #8FE4F8;
+}
+
+.link-tree {
+  grid-row: 2;
+  padding: 1em;
+  margin-left: 40px;
+  background-color: #8FE4F8;
+}
+
+.car-important-wrapper {
+  display: grid;
+  grid-template-columns: 50%;
+  grid-gap: 5px;
+}
+
+.car-gallery-main {
+  text-align: center;
+  grid-column: 1;
+  padding: 1em;
+  background-color: #8FE4F8;
+  border-radius: 10px;
+}
+
+.car-gallery-main img {
+  height: 400px;
+  width: 610px;
+}
+
+.car-gallery-mini {
+  background-color: #8FE4F8;
+}
+
+.car-gallery-mini img {
+  height: 130px;
+  width: 200px;
+}
+
+.car-specs {
+  grid-column: 2;
+  padding: 1em;
+  background-color: #8FE4F8;
+  border-radius: 10px;
+}
+
+.user-contact-form {
+
+}
